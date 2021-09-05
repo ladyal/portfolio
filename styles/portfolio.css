@@ -180,6 +180,18 @@ footer .social-links a:hover {
   background-color: var(--secondary-color);
 }
 
+p a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  opacity: 50%;
+}
+
+p a:hover {
+  text-decoration: underline;
+  color: var(--tertiary-color);
+  opacity: 60%;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
