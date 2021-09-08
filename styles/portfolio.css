@@ -31,7 +31,7 @@ h3 {
 
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -70,13 +70,13 @@ p {
 }
 
 .content h3 {
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.5;
   font-family: var(--default-font-family);
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .content {
@@ -86,13 +86,22 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: var(--tertiary-color);
   border-radius: 4px;
   border: 2px solid var(--tertiary-color);
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
   font-size: 20px;
   line-height: 27px;
   padding: 15px 20px;
+}
+
+.btn-branding:hover {
+  background: var(--branding-color);
+  font: var(--secondary-color);
+  font-size: 20px;
+  line-height: 27px;
+  padding: 15px 20px;
+  transition: all 150ms ease-in-out;
 }
 
 .btn-branding-outline {
@@ -162,14 +171,15 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  color: var(--secondary-color);
+  text-decoration: underline;
+  opacity: 75%;
 }
 
 footer .social-links a {
   margin: 0 20px;
   color: var(--secondary-color);
   background-color: var(--tertiary-color);
-  padding: 10px 14px;
+  padding: 8px 14px;
   font-size: 18px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
