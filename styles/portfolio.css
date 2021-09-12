@@ -172,7 +172,7 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  text-decoration: underline wavy;
+  text-decoration: underline;
   opacity: 75%;
 }
 
@@ -198,7 +198,7 @@ p a {
 }
 
 p a:hover {
-  text-decoration: underline;
+  text-decoration: underline wavy;
   color: var(--tertiary-color);
   opacity: 60%;
 }
